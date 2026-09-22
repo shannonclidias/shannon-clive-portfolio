@@ -7,3 +7,6 @@ Desktop.ini
 __pycache__/
 *.py[cod]
 *$py.class
+
+# Local backups
+videos_master_backup/
