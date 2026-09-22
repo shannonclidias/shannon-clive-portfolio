@@ -279,12 +279,23 @@ document.addEventListener('DOMContentLoaded', () => {
   }, { passive: true });
 
   // =========================================================================
-  // 6. SCROLL SPY FOR HEADER NAV
+  // 6. SCROLL SPY FOR HEADER NAV & MOBILE FLOATING CTA
   // =========================================================================
   const navLinks = document.querySelectorAll('.nav-links .nav-link');
+  const floatingCta = document.querySelector('.mobile-floating-cta');
+
   window.addEventListener('scroll', () => {
     if (isDeckMode) return;
     const scrollPos = window.scrollY + 120;
+
+    // Show floating CTA only when scrolled past the hero cover slide
+    if (floatingCta) {
+      if (window.scrollY > 220) {
+        floatingCta.classList.add('visible');
+      } else {
+        floatingCta.classList.remove('visible');
+      }
+    }
 
     slides.forEach((sec) => {
       const top = sec.offsetTop;
@@ -300,6 +311,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
       }
     });
-  });
+  }, { passive: true });
 
 });
