@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shannon Clive Dias | Photography &amp; Videography Portfolio</title>
+  
+  <!-- OpenGraph Metadata for WhatsApp & Social Sharing -->
+  <meta property="og:title" content="Shannon Clive Dias | Photography &amp; Videography Portfolio">
+  <meta property="og:description" content="Goa-based photographer &amp; videographer. Portraits, events, weddings, and cinematics. Ready for 2nd shooter and assistant roles.">
+  <meta property="og:image" content="assets/images/about-shannon.jpg">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&family=Inter:wght@300;400;500;600;700&family=Oswald:wght@400;500;600;700&family=Syne:wght@500;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="scroll-mode">
+
+  <!-- Top Sticky Navigation -->
+  <header class="site-header">
+    <div class="nav-container">
+      <a href="#cover" class="nav-brand">
+        <span class="brand-title">SHANNON CLIVE</span>
+        <span class="brand-sub">PORTFOLIO</span>
+      </a>
+
+      <nav class="nav-links">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#videos" class="nav-link">Reels</a>
+        <a href="#beach-1" class="nav-link">Portraits</a>
+        <a href="#studio" class="nav-link">Studio</a>
+        <a href="#events" class="nav-link">Events</a>
+        <a href="#weddings" class="nav-link">Weddings</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="toggle-deck-btn" class="btn btn-outline" title="Switch to Slide-by-Slide Deck View">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          <span class="btn-text">Deck View</span>
+        </button>
+        <a href="https://wa.me/917741893591?text=Hi%20Shannon,%20saw%20your%20portfolio%20and%20would%20like%20to%20connect!" target="_blank" rel="noopener" class="btn btn-whatsapp">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766 0-3.18-2.587-5.771-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.299.144.347.491 1.2.534 1.287.043.087.072.188.014.303-.058.116-.087.188-.173.289l-.26.303c-.087.087-.177.181-.076.355.101.173.449.741.964 1.201.662.591 1.221.774 1.394.86.174.086.275.072.376-.044.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.043.073.043.419-.101.824zM12 2C6.477 2 2 6.477 2 12c0 1.891.524 3.66 1.434 5.176L2 22l4.954-1.396A9.957 9.957 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2z"/></svg>
+          <span>WhatsApp</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Slide Deck Navigation Bar (Visible in Deck Mode) -->
+  <aside id="deck-controls" class="deck-controls">
+    <button id="deck-prev-btn" class="deck-arrow-btn" aria-label="Previous Slide">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
+    </button>
+    <div class="deck-counter">
+      <span id="current-slide-num">01</span> / <span id="total-slide-num">09</span>
+    </div>
+    <button id="deck-next-btn" class="deck-arrow-btn" aria-label="Next Slide">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+    </button>
+    <button id="deck-close-btn" class="deck-close-btn" title="Exit Deck Mode">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+  </aside>
+
+  <main id="portfolio-container" class="portfolio-container">
+
+    <!-- ========================================== -->
+    <!-- SLIDE 1: COVER                             -->
+    <!-- ========================================== -->
+    <section id="cover" class="slide-section slide-cover" data-slide="1">
+      <div class="slide-inner">
+        <!-- Four Corner Metadata (Reference Sheet 1) -->
+        <div class="corner-label top-left">PHOTOGRAPHY</div>
+        <div class="corner-label top-right">VIDEOGRAPHY</div>
+        <div class="corner-label bottom-left">SHANNON CLIVE</div>
+        <div class="corner-label bottom-right">PORTFOLIO</div>
+
+        <!-- Center Stage: Generative AI Wide Photo + Exact 3-Layer Typography -->
+        <div class="hero-stage">
+          <!-- Layer 1: Solid Black Text (Extends outside the photo) -->
+          <div class="hero-word solid-word" aria-hidden="true">PORTFOLIO</div>
+
+          <!-- Layer 2: Expanded Generative AI Wide Filmstrip Photo -->
+          <div class="hero-photo-frame">
+            <img src="assets/images/hero-filmstrip-expanded.jpg" alt="Shannon Clive Analog Film Strips" class="hero-film-img">
+          </div>
+
+          <!-- Layer 3: Hollow Outlined Text (Overlaid on top of photo) -->
+          <div class="hero-word hollow-word" aria-hidden="true">PORTFOLIO</div>
+
+          <!-- Layer 4: Exact Brittany Signature Script Overlay -->
+          <div class="hero-script-overlay">Photography Videography</div>
+        </div>
+
+        <a href="#about" class="scroll-down-hint">
+          <span>Scroll to explore</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 13l5 5 5-5M7 6l5 5 5-5"/></svg>
+        </a>
+      </div>
+    </section>
+
+    <!-- ========================================== -->
+    <!-- SLIDE 2: ABOUT ME                          -->
+    <!-- ========================================== -->
+    <section id="about" class="slide-section slide-about" data-slide="2">
+      <div class="slide-inner">
+        <div class="about-grid">
+          
+          <!-- Left Column: Bio & Pitch -->
+          <div class="about-content">
+            <span class="section-tag">ABOUT ME</span>
+            <h2 class="signature-heading">
+              <span class="sig-name">Shannon Clive</span>
+              <span class="sig-surname">Dias</span>
+            </h2>
+            
+            <p class="about-description">
+              Photographer &amp; Videographer based in Goa.<br>
+              Shot for Hyundai Goa, events, brands &amp; real moments – creating visuals that feel cinematic, natural, and alive.
+            </p>
+
+            <div class="category-pills">
+              <span class="pill">PORTRAIT | EVENTS | CINEMATICS</span>
+              <span class="pill pill-bold">PHOTOGRAPHY / VIDEOGRAPHY</span>
+            </div>
+          </div>
+
+          <!-- Right Column: Photo & Vertical Editorial Text -->
+          <div class="about-visual">
+            <div class="about-photo-wrapper">
+              <img src="assets/images/about-shannon.jpg" alt="Shannon Clive Dias" class="about-photo clickable-img" data-full="photos/s.jpg" data-caption="Shannon Clive Dias — Photographer & Videographer, Goa">
+            </div>
+            <div class="vertical-sidebar-text">
+              <span class="v-tag">REAL MOMENTS. TIMELESS FRAMES.</span>
+              <span class="v-brand">PORTFOLIO</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================== -->
+    <!-- SLIDE 3: VIDEOGRAPHY SHOWCASE              -->
+    <!-- ========================================== -->
+    <!-- ========================================== -->
+    <!-- SLIDE 3: CAIN REEL (SOLO PAGE)             -->
+    <!-- ========================================== -->
+    <section id="videos" class="slide-section slide-video-stage" data-slide="3">
+      <div class="slide-inner">
+        
+        <div class="video-stage-header">
+          <div class="stage-tag">VIDEOGRAPHY</div>
+          <h2 class="stage-title">Cinematic Motion &amp; Reels</h2>
+        </div>
+
+        <!-- Solo Cain Reel Display -->
+        <div class="stage-reels-container single-reel">
+          <div class="reel-frame primary-reel">
+            <video class="reel-video" playsinline preload="metadata" loop>
+              <source src="videos/Cain Reel.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            
+            <div class="video-overlay">
+              <button class="play-trigger-btn" aria-label="Play video">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="white"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+              </button>
+            </div>
+
+            <div class="reel-controls">
+              <button class="reel-ctrl-btn sound-toggle-btn" aria-label="Toggle sound">
+                <svg class="icon-muted" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 5L6 9H2v6h4l5 4V5z"/><line x1="23" y1="9" x2="17" y2="15"/><line x1="17" y1="9" x2="23" y2="15"/></svg>
+                <svg class="icon-unmuted" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:none;"><path d="M11 5L6 9H2v6h4l5 4V5z"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>
+              </button>
+              <button class="reel-ctrl-btn fullscreen-btn" aria-label="Full screen">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================== -->
+    <!-- SLIDE 4: TERAN & KEAGEN (SIDE BY SIDE)     -->
+    <!-- ========================================== -->
+    <section id="videos-live" class="slide-section slide-video-stage" data-slide="4">
+      <div class="slide-inner">
+        
+        <div class="video-stage-header">
+          <div class="stage-tag">LIVE EVENTS &amp; CINEMATICS</div>
+          <h2 class="stage-title">Atmosphere &amp; Energy</h2>
+        </div>
+
+        <!-- Teran and Keagen Side by Side -->
+        <div class="stage-reels-container">
+          
+          <!-- Teran Reel -->
+          <div class="reel-frame">
+            <video class="reel-video" playsinline preload="metadata" loop muted>
+              <source src="videos/teran bro 3.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            
+            <div class="video-overlay">
+              <button class="play-trigger-btn" aria-label="Play video">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="white"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+              </button>
+            </div>
+
+            <div class="reel-controls">
+              <button class="reel-ctrl-btn sound-toggle-btn" aria-label="Toggle sound">
+                <svg class="icon-muted" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 5L6 9H2v6h4l5 4V5z"/><line x1="23" y1="9" x2="17" y2="15"/><line x1="17" y1="9" x2="23" y2="15"/></svg>
+                <svg class="icon-unmuted" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:none;"><path d="M11 5L6 9H2v6h4l5 4V5z"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>
+              </button>
+              <button class="reel-ctrl-btn fullscreen-btn" aria-label="Full screen">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/></svg>
+              </button>
+            </div>
+          </div>
+
+          <!-- DJ Keagen Reel -->
+          <div class="reel-frame">
+            <video class="reel-video" playsinline preload="metadata" loop muted>
+              <source src="videos/dj-keagen--.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            
+            <div class="video-overlay">
+              <button class="play-trigger-btn" aria-label="Play video">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="white"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+              </button>
+            </div>
+
+            <div class="reel-controls">
+              <button class="reel-ctrl-btn sound-toggle-btn" aria-label="Toggle sound">
+                <svg class="icon-muted" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 5L6 9H2v6h4l5 4V5z"/><line x1="23" y1="9" x2="17" y2="15"/><line x1="17" y1="9" x2="23" y2="15"/></svg>
+                <svg class="icon-unmuted" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:none;"><path d="M11 5L6 9H2v6h4l5 4V5z"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>
+              </button>
+              <button class="reel-ctrl-btn fullscreen-btn" aria-label="Full screen">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/></svg>
+              </button>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================== -->
+    <!-- SLIDE 5: BEACH PORTRAITS - SERIES 1        -->
+    <!-- ========================================== -->
+    <section id="beach-1" class="slide-section slide-triptych" data-slide="5">
+      <div class="slide-inner">
+        <div class="editorial-header">
+          <span class="sub-header">PORTRAIT SERIES 01</span>
+          <h3 class="editorial-title">Natural Light Beach Portraits</h3>
+        </div>
+
+        <div class="triptych-grid">
+          <div class="photo-card">
+            <img src="assets/images/beach-1.jpg" alt="Beach portrait with red roses - back glance" class="portfolio-img clickable-img" data-full="photos/MyC-1.jpg" data-caption="Natural Light Beach Series — Over the Shoulder (Goa)">
+          </div>
+          <div class="photo-card">
+            <img src="assets/images/beach-2.jpg" alt="Beach portrait with red roses - kneeling on sand" class="portfolio-img clickable-img" data-full="photos/MyC-2.jpg" data-caption="Natural Light Beach Series — Sand & Sea Breeze (Goa)">
+          </div>
+          <div class="photo-card">
+            <img src="assets/images/beach-3.jpg" alt="Beach portrait with red roses - profile smile" class="portfolio-img clickable-img" data-full="photos/MyC-3.jpg" data-caption="Natural Light Beach Series — Candid Emotion (Goa)">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================== -->
+    <!-- SLIDE 6: BEACH PORTRAITS - SERIES 2        -->
+    <!-- ========================================== -->
+    <section id="beach-2" class="slide-section slide-triptych" data-slide="6">
+      <div class="slide-inner">
+        <div class="editorial-header">
+          <span class="sub-header">PORTRAIT SERIES 02</span>
+          <h3 class="editorial-title">Architecture, Steps &amp; Composition</h3>
+        </div>
+
+        <div class="triptych-grid">
+          <div class="photo-card">
+            <img src="assets/images/beach-4.jpg" alt="Beach portrait with palm tree" class="portfolio-img clickable-img" data-full="photos/MyC-4.jpg" data-caption="Beachside Editorial — Palm & Breeze (Goa)">
+          </div>
+          <div class="photo-card">
+            <img src="assets/images/beach-5.jpg" alt="Model sitting on white stairs" class="portfolio-img clickable-img" data-full="photos/MyC-5.jpg" data-caption="Editorial Steps — Framing & Natural Tones (Goa)">
+          </div>
+          <div class="photo-card">
+            <img src="assets/images/beach-6.jpg" alt="Model leaning on white railing" class="portfolio-img clickable-img" data-full="photos/MyC-6.jpg" data-caption="Warm Editorial Glow — Handrail Pose (Goa)">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================== -->
+    <!-- SLIDE 7: STUDIO PORTRAIT SEQUENCE (ZYAIR)  -->
+    <!-- ========================================== -->
+    <section id="studio" class="slide-section slide-sequence" data-slide="7">
+      <div class="slide-inner">
+        <div class="editorial-header">
+          <span class="sub-header">STUDIO &amp; CREATIVE EXPRESSION</span>
+          <h3 class="editorial-title">Four-Pose Character Sequence</h3>
+        </div>
+
+        <!-- Staggered sequence layout matching reference sheet 6 -->
+        <div class="staggered-sequence-grid">
+          <div class="sequence-card step-1">
+            <img src="assets/images/studio-zyair-1.jpg" alt="Zyair studio pose 1" class="sequence-img clickable-img" data-full="photos/zyair (1).JPG" data-caption="Studio Series — Zyair Pose 1 (Point)">
+          </div>
+          <div class="sequence-card step-2">
+            <img src="assets/images/studio-zyair-2.jpg" alt="Zyair studio pose 2" class="sequence-img clickable-img" data-full="photos/zyair (2).JPG" data-caption="Studio Series — Zyair Pose 2 (Curious)">
+          </div>
+          <div class="sequence-card step-3">
+            <img src="assets/images/studio-zyair-3.jpg" alt="Zyair studio pose 3" class="sequence-img clickable-img" data-full="photos/zyair (3).JPG" data-caption="Studio Series — Zyair Pose 3 (Expressive)">
+          </div>
+          <div class="sequence-card step-4">
+            <img src="assets/images/studio-zyair-4.jpg" alt="Zyair studio pose 4" class="sequence-img clickable-img" data-full="photos/zyair (4).JPG" data-caption="Studio Series — Zyair Pose 4 (Composed)">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================== -->
+    <!-- SLIDE 8: EVENT COVERAGE & CELEBRATIONS     -->
+    <!-- ========================================== -->
+    <section id="events" class="slide-section slide-diptych" data-slide="8">
+      <div class="slide-inner">
+        <div class="editorial-header">
+          <span class="sub-header">EVENT PHOTOGRAPHY</span>
+          <h3 class="editorial-title">Celebrations, Moments &amp; Details</h3>
+        </div>
+
+        <div class="diptych-grid">
+          <div class="diptych-card">
+            <img src="assets/images/event-mom-son.jpg" alt="Mother holding birthday boy" class="portfolio-img clickable-img" data-full="photos/DSC07171.JPG" data-caption="Event Portrait — Mother & Son Birthday Celebration">
+          </div>
+          <div class="diptych-card">
+            <img src="assets/images/event-cake.jpg" alt="Hot Wheels birthday cake" class="portfolio-img clickable-img" data-full="photos/DSC07116.JPG" data-caption="Event Detail — Hot Wheels Birthday Cake Setup">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================== -->
+    <!-- SLIDE 9: WEDDING / EVENT & FLAT LAY        -->
+    <!-- ========================================== -->
+    <section id="weddings" class="slide-section slide-diptych" data-slide="9">
+      <div class="slide-inner">
+        <div class="editorial-header">
+          <span class="sub-header">WEDDING &amp; EDITORIAL ESSENTIALS</span>
+          <h3 class="editorial-title">Couple Portraits &amp; Accessory Flat Lays</h3>
+        </div>
+
+        <div class="diptych-grid">
+          <div class="diptych-card">
+            <img src="assets/images/wedding-motorcycle.jpg" alt="Couple by Harley Davidson motorcycle" class="portfolio-img clickable-img" data-full="photos/clive-studios-11.jpg" data-caption="Editorial Couple — Formal Wear with Harley-Davidson (Goa)">
+          </div>
+          <div class="diptych-card">
+            <img src="assets/images/wedding-flatlay.jpg" alt="Detail flat lay with Bleu de Chanel and rings" class="portfolio-img clickable-img" data-full="photos/DSC06984.JPG" data-caption="Accessories Flat Lay — Rings, Bleu de Chanel, Watch & Jacket">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================== -->
+    <!-- SLIDE 10: CONTACT & CALL TO ACTION         -->
+    <!-- ========================================== -->
+    <section id="contact" class="slide-section slide-contact" data-slide="10">
+      <div class="slide-inner">
+        <div class="contact-grid">
+          
+          <!-- Left: Shannon Clive Portfolio Collage -->
+          <div class="contact-portrait-col">
+            <img src="assets/images/collage.jpg" alt="Shannon Clive Photography & Videography Collage" class="contact-portrait-img clickable-img" data-full="assets/images/collage.png" data-caption="Shannon Clive — Visual Highlights Collage (Portraits, Events & Details)">
+          </div>
+
+          <!-- Right: Contact & Direct Studio Pitch -->
+          <div class="contact-info-col">
+            <div class="contact-heading-box">
+              <h2 class="contact-headline">HOPE TO WORK<br>WITH YOU</h2>
+              <div class="contact-script">Soon</div>
+            </div>
+
+            <div class="contact-channels">
+              
+              <!-- Direct WhatsApp Action -->
+              <a href="https://wa.me/917741893591?text=Hi%20Shannon,%20saw%20your%20portfolio%20and%20would%20like%20to%20connect%20for%20shoots!" target="_blank" rel="noopener" class="contact-item highlight">
+                <span class="c-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766 0-3.18-2.587-5.771-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.299.144.347.491 1.2.534 1.287.043.087.072.188.014.303-.058.116-.087.188-.173.289l-.26.303c-.087.087-.177.181-.076.355.101.173.449.741.964 1.201.662.591 1.221.774 1.394.86.174.086.275.072.376-.044.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.043.073.043.419-.101.824zM12 2C6.477 2 2 6.477 2 12c0 1.891.524 3.66 1.434 5.176L2 22l4.954-1.396A9.957 9.957 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2z"/></svg>
+                </span>
+                <div class="c-info">
+                  <span class="c-label">WhatsApp (Quick Response)</span>
+                  <span class="c-val">+91 77418 93591</span>
+                </div>
+              </a>
+
+              <!-- Phone Call -->
+              <a href="tel:+917741893591" class="contact-item">
+                <span class="c-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                </span>
+                <div class="c-info">
+                  <span class="c-label">Direct Phone Call</span>
+                  <span class="c-val">+91 77418 93591</span>
+                </div>
+              </a>
+
+              <!-- Email -->
+              <a href="mailto:clivestudios.goa@gmail.com?subject=Inquiry%20regarding%20photography%20%2F%20videography%20work" class="contact-item">
+                <span class="c-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                </span>
+                <div class="c-info">
+                  <span class="c-label">Email Address</span>
+                  <span class="c-val">clivestudios.goa@gmail.com</span>
+                </div>
+              </a>
+
+              <!-- Instagram -->
+              <a href="https://instagram.com/_clive_aerials" target="_blank" rel="noopener" class="contact-item">
+                <span class="c-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                </span>
+                <div class="c-info">
+                  <span class="c-label">Instagram</span>
+                  <span class="c-val">@_clive_aerials</span>
+                </div>
+              </a>
+
+            </div>
+
+            <div class="studio-note">
+              Based in Goa • Available across North &amp; South Goa for weddings, pre-weddings, events, and shoots.
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Photo Lightbox Modal -->
+  <div id="lightbox-modal" class="lightbox-modal" aria-hidden="true" role="dialog">
+    <div class="lightbox-backdrop"></div>
+    <div class="lightbox-content">
+      <button id="lightbox-close" class="lightbox-btn close-btn" aria-label="Close Lightbox">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+      <button id="lightbox-prev" class="lightbox-btn nav-btn prev-btn" aria-label="Previous Photo">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+      </button>
+      <div class="lightbox-image-container">
+        <img id="lightbox-img" src="" alt="Zoomed portfolio photograph">
+        <div id="lightbox-caption" class="lightbox-caption"></div>
+      </div>
+      <button id="lightbox-next" class="lightbox-btn nav-btn next-btn" aria-label="Next Photo">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- Mobile Floating Sticky CTA -->
+  <div class="mobile-floating-cta">
+    <a href="https://wa.me/917741893591?text=Hi%20Shannon,%20saw%20your%20portfolio!" target="_blank" rel="noopener" class="mobile-cta-btn wa-btn">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766 0-3.18-2.587-5.771-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.299.144.347.491 1.2.534 1.287.043.087.072.188.014.303-.058.116-.087.188-.173.289l-.26.303c-.087.087-.177.181-.076.355.101.173.449.741.964 1.201.662.591 1.221.774 1.394.86.174.086.275.072.376-.044.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.043.073.043.419-.101.824zM12 2C6.477 2 2 6.477 2 12c0 1.891.524 3.66 1.434 5.176L2 22l4.954-1.396A9.957 9.957 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2z"/></svg>
+      <span>WhatsApp Shannon</span>
+    </a>
+    <a href="tel:+917741893591" class="mobile-cta-btn call-btn">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+      <span>Call</span>
+    </a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
